@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <meta name="description" content="Product Landing Page">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Mena Smoot">
+    <script src="https://kit.fontawesome.com/fa9e5cb67e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://static.vecteezy.com/system/resources/previews/000/553/377/original/orange-fruit-illustration-vector.jpg" alt="Image of the orange logo">
+      <h1>Smoothie Haven</h1>
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link"><a id="recipes" href="#email">Get Recipes</a></li>
+          <li class="nav-link"><a id="how-theyre-made" href="#the-process">How They're Made</a></li>
+          <li class="nav-link"><a id="orders" href="#menu">Place Order</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+        <fieldset>
+          <h2 id="email-header">Want Smoothie Recipes?</h2>
+          <label for="email">Sign up here: 
+            <input name="email" id="email" type="email" placeholder="Type email in here">
+          </label>
+        </fieldset>
+        <button id="submit" type="submit">Yes, Please!</button>
+      </form>
+      <section id="the-process">
+        <p><i class="fa-solid fa-lemon"></i>Quality Ingredients</p>
+        <p><i class="fa-solid fa-blender"></i>Blended Smooth</p>
+        <p><i class="fa-solid fa-heart"></i>Made To Order</p>
+        <video id="video" type="video/mp4" src="./images/pexels-arthouse-studio-8492485-506x960-25fps.mp4" controls></video>
+      </section>
+      <section id="menu">
+        <section>
+          <h4 class="smoothie-flavor">Strawberry Banana</h4>
+          <ul class="smoothie-ingredients">
+            <li>Strawberries</li>
+            <li>Bananas</li>
+            <li>Plain Greek Yogurt</li>
+          </ul>
+          <button><i class="fa-solid fa-cart-plus"></i>Add To Cart</button>
+        </section>
+        <section>
+          <h4 class="smoothie-flavor">Rockin' Raspberry</h4>
+          <ul class="smoothie-ingredients">
+            <li>Raspberries</li>
+            <li>Blackberries</li>
+            <li>Almond Milk</li>
+          </ul>
+          <button><i class="fa-solid fa-cart-plus"></i>Add To Cart</button>
+        </section>
+        <section>
+          <h4 class="smoothie-flavor">Green Superfood</h4>
+          <ul class="smoothie-ingredients">
+            <li>Kiwis</li>
+            <li>Kale</li>
+            <li>Skim Milk</li>
+          </ul>
+          <button><i class="fa-solid fa-cart-plus"></i>Add To Cart</button>
+        </section>
+      </section>  
+    </main>
+  </body>
+  <footer>
+    <p>Copyright 2023, Smoothie Haven</p>
+    <ul>
+      <li><a id="about-us" href="#">About Us</a></li>
+      <li><a id="careers" href="#">Careers</a></li>
+      <li><a id="contact-us" href="#">Contact Us</a></li>
+    </ul>
+  </footer>
+</html>
